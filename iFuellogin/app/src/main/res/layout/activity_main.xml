@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/layout_bg"
+        android:backgroundTint="#FFFFFF"
+        android:cursorVisible="true"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="                        Email Address"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="332dp"
+        android:layout_height="51dp"
+        android:layout_below="@+id/email"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/layout_bg"
+        android:backgroundTint="#FFFFFF"
+        android:cursorVisible="true"
+        android:hint="                          Password" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="327dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/password"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/layout_bg"
+        android:backgroundTint="#FFFFFF"
+        android:cursorVisible="true"
+        android:hint="                     Enter your Name" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="329dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/name"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/layout_bg"
+        android:backgroundTint="#FFFFFF"
+        android:cursorVisible="true"
+        android:hint="                        Phone Number" />
+
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_below="@+id/phone"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="107dp"
+        android:backgroundTint="#1D78C1"
+        android:text="Sign Up" />
+
+    <Button
+        android:id="@+id/btnsignin"
+        android:layout_width="331dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/btnsignup"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="#20349F"
+        android:text="Existing user! Go to Sign in page" />
+
+</RelativeLayout>
